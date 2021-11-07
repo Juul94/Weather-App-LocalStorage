@@ -33,13 +33,13 @@ const updateUI = (data) => {
 
     if(weather.IsDayTime) {
         imageTime.classList.remove('d-none');
-        timeSource = 'https://raw.githubusercontent.com/Juul94/Weather-App-LocalStorage/main/img/day.svg';
+        timeSource = 'https://raw.githubusercontent.com/Juul94/Weather-App-LocalStorage/65aa9b48d1cdfb69d2257c40ad44d30f415f05e0/img/day.svg';
         document.body.style.backgroundColor = '#b8dbf4';
     }
-
+    
     else {
         imageTime.classList.remove('d-none');
-        timeSource = 'https://raw.githubusercontent.com/Juul94/Weather-App-LocalStorage/main/img/night.svg';
+        timeSource = 'https://raw.githubusercontent.com/Juul94/Weather-App-LocalStorage/65aa9b48d1cdfb69d2257c40ad44d30f415f05e0/img/night.svg';
         document.body.style.backgroundColor = '#243046';
     }
 
